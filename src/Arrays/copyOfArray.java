@@ -9,9 +9,9 @@ public class copyOfArray {
             System.out.print(ele+" ");
         }
         System.out.println();
-//        int[] nums = arr;// Shallow Copy
-//        nums[0] = 70;
-//        System.out.print(arr[0]);
+        int[] nums = arr;// Shallow Copy
+        nums[0] = 70;
+        System.out.print(arr[0]);
         //deep copy
         int[] brr = Arrays.copyOf(arr,arr.length);
         brr[0] = 70;
