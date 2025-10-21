@@ -9,7 +9,7 @@ public class countVowels {
         String str = sc.nextLine();
         int n = str.length();
         int count =0;
-        // count the vowels
+        // count the vowels;
 
 
         for(int i=0; i<n; i++){
