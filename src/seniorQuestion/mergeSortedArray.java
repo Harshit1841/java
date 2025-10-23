@@ -15,17 +15,17 @@ public class mergeSortedArray {
             }
         }
 
-        // Copy remaining elements of arr1
+        // Copy remaining elements of arr1;
         while (i < arr1.length) {
             merged[k++] = arr1[i++];
         }
 
-        // Copy remaining elements of arr2
+        // Copy remaining elements of arr2;
         while (j < arr2.length) {
             merged[k++] = arr2[j++];
         }
 
-        // Print merged array
+        // Print merged array;
         System.out.print("Merged Sorted Array: ");
         for (int num : merged) {
             System.out.print(num + " ");
