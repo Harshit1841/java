@@ -15,7 +15,7 @@ public class mergeSortedArray {
             }
         }
 
-        // Copy remaining elements of arr
+        // Copy remaining elements of arr ;
         while (i < arr1.length) {
             merged[k++] = arr1[i++];
         }
