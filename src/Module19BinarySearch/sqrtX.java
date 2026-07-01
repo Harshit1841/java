@@ -1,4 +1,4 @@
-class SolutionHelper {
+class SolutionHelp {
     public int mySqrt(int x) {
         long lo = 0, hi = (long)x;
         while(lo<=hi){
