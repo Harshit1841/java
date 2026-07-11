@@ -43,6 +43,7 @@ public class merge_sort {
         mergesort(b);
         // merge these 'a' and 'b'
         merge(a,b,arr);
+        a = null; b = null;
     }
     public static void main(String[] args){
         int[] arr = {80,30,50,20,60,10,70,40};
